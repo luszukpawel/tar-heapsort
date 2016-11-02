@@ -1,0 +1,53 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/pluszak/Projects/Testowanie Aplikacji Ruby/zaliczenie/lib/heap.rb": [
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        null,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        null,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        5,
+        5,
+        5,
+        5,
+        1,
+        null,
+        0,
+        null,
+        4,
+        null,
+        5,
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1478006087
+  }
+}
