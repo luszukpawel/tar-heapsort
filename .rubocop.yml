@@ -1,0 +1,30 @@
+AllCops:
+  Include:
+    - '**/Rakefile'
+    - '**/config.ru'
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - '**/Gemfile'
+
+Metrics/LineLength:
+  Max: 200
+
+Metrics/MethodLength:
+  CountComments: false  # count full line comments?
+  Max: 100
+
+Metrics/BlockLength:
+  CountComments: false  # count full line comments?
+  Max: 250
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+
+Metrics/AbcSize:
+  Max: 200
+
+
+Style/StringLiterals:
+  Enabled: true
