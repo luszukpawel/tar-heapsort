@@ -5,7 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src='./assets/0.10.0/application.js' type='text/javascript'></script>    
     <link href='./assets/0.10.0/application.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" type="image/png" href="./assets/0.10.0/favicon_yellow.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/0.10.0/favicon_green.png" />
     <link rel="icon" type="image/png" href="./assets/0.10.0/favicon.png" />
   </head>
   
@@ -14,27 +14,27 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2016-11-03T18:15:08+01:00">2016-11-03T18:15:08+01:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2016-11-07T11:22:58+01:00">2016-11-07T11:22:58+01:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="yellow">86.05%</span></span>
+    (<span class="covered_percent"><span class="green">100.0%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         9.9
+         13.5
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>1</b> files in total.
-    <b>43</b> relevant lines. 
-    <span class="green"><b>37</b> lines covered</span> and
-    <span class="red"><b>6</b> lines missed </span>
+    <b>39</b> relevant lines. 
+    <span class="green"><b>39</b> lines covered</span> and
+    <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -52,12 +52,12 @@
       
       <tr>
         <td class="strong"><a href="#8c309a20bd9b86420ae2190a33da03e160bafcef" class="src_link" title="lib/heap.rb">lib/heap.rb</a></td>
-        <td class="yellow strong">86.05 %</td>
-        <td>77</td>
-        <td>43</td>
-        <td>37</td>
-        <td>6</td>
-        <td>9.9</td>
+        <td class="green strong">100.0 %</td>
+        <td>67</td>
+        <td>39</td>
+        <td>39</td>
+        <td>0</td>
+        <td>13.5</td>
       </tr>
       
     </tbody>
@@ -79,11 +79,11 @@
         <div class="source_table" id="8c309a20bd9b86420ae2190a33da03e160bafcef">
   <div class="header">
     <h3>lib/heap.rb</h3>
-    <h4><span class="yellow">86.05 %</span> covered</h4>
+    <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>43</b> relevant lines. 
-      <span class="green"><b>37</b> lines covered</span> and
-      <span class="red"><b>6</b> lines missed.</span>
+      <b>39</b> relevant lines. 
+      <span class="green"><b>39</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
   
@@ -93,463 +93,403 @@
         <li class="never" data-hits="" data-linenumber="1">
           
           
-          <code class="ruby">#def main</code>
+          <code class="ruby"># =&gt; Implementation of Heapsort alghorithm in Ruby plus some array methods</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="2">
           
           
-          <code class="ruby">#  a = [3, 2, 1]</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="3">
           
           
-          <code class="ruby">#  puts heapsort(a)</code>
+          <code class="ruby"># =&gt; def main</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="4">
           
           
-          <code class="ruby">#  puts extract_max(a)</code>
+          <code class="ruby">#  a = [3, 2, 1]</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="5">
           
           
-          <code class="ruby">#end</code>
+          <code class="ruby">#  puts heapsort(a)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="6">
           
           
+          <code class="ruby">#  puts extract_max(a)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby"># =&gt; end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="7">
+        <li class="covered" data-hits="1" data-linenumber="9">
           <span class="hits">1</span>
           
           <code class="ruby">def heapsort(input_array)</code>
         </li>
       
-        <li class="covered" data-hits="7" data-linenumber="8">
-          <span class="hits">7</span>
+        <li class="covered" data-hits="8" data-linenumber="10">
+          <span class="hits">8</span>
           
           <code class="ruby">  heap_size = input_array.size</code>
         </li>
       
-        <li class="covered" data-hits="7" data-linenumber="9">
-          <span class="hits">7</span>
+        <li class="covered" data-hits="8" data-linenumber="11">
+          <span class="hits">8</span>
           
           <code class="ruby">  j = (heap_size - 1) / 2</code>
         </li>
       
-        <li class="covered" data-hits="7" data-linenumber="10">
-          <span class="hits">7</span>
+        <li class="covered" data-hits="8" data-linenumber="12">
+          <span class="hits">8</span>
           
           <code class="ruby">  while j &gt;= 0</code>
         </li>
       
-        <li class="covered" data-hits="14" data-linenumber="11">
-          <span class="hits">14</span>
+        <li class="covered" data-hits="18" data-linenumber="13">
+          <span class="hits">18</span>
           
           <code class="ruby">    maxheapify(input_array, heap_size, j)</code>
         </li>
       
-        <li class="covered" data-hits="14" data-linenumber="12">
-          <span class="hits">14</span>
+        <li class="covered" data-hits="18" data-linenumber="14">
+          <span class="hits">18</span>
           
           <code class="ruby">    j -= 1</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="13">
+        <li class="never" data-hits="" data-linenumber="15">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="covered" data-hits="7" data-linenumber="14">
-          <span class="hits">7</span>
+        <li class="covered" data-hits="8" data-linenumber="16">
+          <span class="hits">8</span>
           
           <code class="ruby">  i = (input_array.size - 1)</code>
         </li>
       
-        <li class="covered" data-hits="7" data-linenumber="15">
-          <span class="hits">7</span>
+        <li class="covered" data-hits="8" data-linenumber="17">
+          <span class="hits">8</span>
           
           <code class="ruby">  while i &gt; 0</code>
         </li>
       
-        <li class="covered" data-hits="15" data-linenumber="16">
-          <span class="hits">15</span>
+        <li class="covered" data-hits="22" data-linenumber="18">
+          <span class="hits">22</span>
           
           <code class="ruby">    input_array[0], input_array[i] = input_array[i], input_array[0]</code>
         </li>
       
-        <li class="covered" data-hits="15" data-linenumber="17">
-          <span class="hits">15</span>
+        <li class="covered" data-hits="22" data-linenumber="19">
+          <span class="hits">22</span>
           
           <code class="ruby">    heap_size -= 1</code>
         </li>
       
-        <li class="covered" data-hits="15" data-linenumber="18">
-          <span class="hits">15</span>
+        <li class="covered" data-hits="22" data-linenumber="20">
+          <span class="hits">22</span>
           
           <code class="ruby">    maxheapify(input_array, heap_size, 0)</code>
         </li>
       
-        <li class="covered" data-hits="15" data-linenumber="19">
-          <span class="hits">15</span>
+        <li class="covered" data-hits="22" data-linenumber="21">
+          <span class="hits">22</span>
           
           <code class="ruby">    i -= 1</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="20">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="covered" data-hits="7" data-linenumber="21">
-          <span class="hits">7</span>
-          
-          <code class="ruby">  input_array</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="22">
           
           
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="covered" data-hits="8" data-linenumber="23">
+          <span class="hits">8</span>
+          
+          <code class="ruby">  input_array</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="24">
+          
+          
           <code class="ruby">end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="23">
+        <li class="never" data-hits="" data-linenumber="25">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="24">
+        <li class="covered" data-hits="1" data-linenumber="26">
           <span class="hits">1</span>
           
           <code class="ruby">def heapsort_dec(input_array)</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="25">
+        <li class="covered" data-hits="3" data-linenumber="27">
           <span class="hits">3</span>
           
           <code class="ruby">  heapsort(input_array).reverse</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="26">
-          
-          
-          <code class="ruby">end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="27">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
         <li class="never" data-hits="" data-linenumber="28">
           
           
-          <code class="ruby"># def test(input_array, largest, index, heap_size)</code>
+          <code class="ruby">end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="29">
           
           
-          <code class="ruby">  # return unless largest != index</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="30">
-          
-          
-          <code class="ruby">  # input_array[index], input_array[largest] = input_array[largest], input_array[index]</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="31">
-          
-          
-          <code class="ruby">  # maxheapify(input_array, heap_size, index)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="32">
-          
-          
-          <code class="ruby"># end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="33">
-          
-          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="34">
-          <span class="hits">1</span>
-          
-          <code class="ruby">def getmaxvalue(input_array)</code>
-        </li>
-      
-        <li class="covered" data-hits="2" data-linenumber="35">
-          <span class="hits">2</span>
-          
-          <code class="ruby">  maximum = input_array[0]</code>
-        </li>
-      
-        <li class="covered" data-hits="2" data-linenumber="36">
-          <span class="hits">2</span>
-          
-          <code class="ruby">  input_array.each do |i|</code>
-        </li>
-      
-        <li class="covered" data-hits="7" data-linenumber="37">
-          <span class="hits">7</span>
-          
-          <code class="ruby">    maximum = i if i &gt; maximum</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="38">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="covered" data-hits="2" data-linenumber="39">
-          <span class="hits">2</span>
-          
-          <code class="ruby">  maximum</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="40">
-          
-          
-          <code class="ruby">end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="41">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="42">
-          <span class="hits">1</span>
-          
-          <code class="ruby">def removefromlist(input_array, x)</code>
-        </li>
-      
-        <li class="covered" data-hits="2" data-linenumber="43">
-          <span class="hits">2</span>
-          
-          <code class="ruby">  input_array.delete(x)</code>
-        </li>
-      
-        <li class="covered" data-hits="2" data-linenumber="44">
-          <span class="hits">2</span>
-          
-          <code class="ruby">  input_array</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="45">
-          
-          
-          <code class="ruby">end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="46">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="47">
-          <span class="hits">1</span>
-          
-          <code class="ruby">def addtolist(input_array)</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="48">
-          
-          
-          <code class="ruby">  input_array.add(x)</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="49">
-          
-          
-          <code class="ruby">  input_array</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="50">
-          
-          
-          <code class="ruby">end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="51">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="52">
-          <span class="hits">1</span>
-          
-          <code class="ruby">def get_size(input_array)</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="53">
-          
-          
-          <code class="ruby">  x = input_array.size</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="54">
-          
-          
-          <code class="ruby">  x</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="55">
-          
-          
-          <code class="ruby">end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="56">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="57">
-          <span class="hits">1</span>
-          
-          <code class="ruby">def empty?(input_array)</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="58">
-          
-          
-          <code class="ruby">  return true if get_size(input_array).zero?</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="59">
-          
-          
-          <code class="ruby">  false</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="60">
-          
-          
-          <code class="ruby">end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="61">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="62">
+        <li class="covered" data-hits="1" data-linenumber="30">
           <span class="hits">1</span>
           
           <code class="ruby">def maxheapify(input_array, heap_size, index)</code>
         </li>
       
-        <li class="covered" data-hits="41" data-linenumber="63">
-          <span class="hits">41</span>
+        <li class="covered" data-hits="57" data-linenumber="31">
+          <span class="hits">57</span>
           
           <code class="ruby">  left = (index + 1) * 2 - 1</code>
         </li>
       
-        <li class="covered" data-hits="41" data-linenumber="64">
-          <span class="hits">41</span>
+        <li class="covered" data-hits="57" data-linenumber="32">
+          <span class="hits">57</span>
           
           <code class="ruby">  right = (index + 1) * 2</code>
         </li>
       
-        <li class="covered" data-hits="41" data-linenumber="65">
-          <span class="hits">41</span>
-          
-          <code class="ruby">  largest = index</code>
-        </li>
-      
-        <li class="covered" data-hits="41" data-linenumber="66">
-          <span class="hits">41</span>
+        <li class="covered" data-hits="57" data-linenumber="33">
+          <span class="hits">57</span>
           
           <code class="ruby">  largest = if left &lt; heap_size &amp;&amp; input_array[left] &gt; input_array[index]</code>
         </li>
       
-        <li class="covered" data-hits="10" data-linenumber="67">
-          <span class="hits">10</span>
+        <li class="covered" data-hits="15" data-linenumber="34">
+          <span class="hits">15</span>
           
           <code class="ruby">              left</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="68">
+        <li class="never" data-hits="" data-linenumber="35">
           
           
-          <code class="ruby">            elsif right &lt; heap_size &amp;&amp; input_array[right] &gt; input_array[largest]</code>
+          <code class="ruby">            elsif right &lt; heap_size &amp;&amp; input_array[right] &gt; input_array[index]</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="69">
+        <li class="covered" data-hits="1" data-linenumber="36">
           <span class="hits">1</span>
           
           <code class="ruby">              right</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="70">
+        <li class="never" data-hits="" data-linenumber="37">
           
           
           <code class="ruby">            else</code>
         </li>
       
-        <li class="covered" data-hits="30" data-linenumber="71">
-          <span class="hits">30</span>
+        <li class="covered" data-hits="41" data-linenumber="38">
+          <span class="hits">41</span>
           
           <code class="ruby">              index</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="72">
+        <li class="never" data-hits="" data-linenumber="39">
           
           
           <code class="ruby">            end</code>
         </li>
       
-        <li class="covered" data-hits="41" data-linenumber="73">
-          <span class="hits">41</span>
+        <li class="covered" data-hits="57" data-linenumber="40">
+          <span class="hits">57</span>
           
           <code class="ruby">  return unless largest != index</code>
         </li>
       
-        <li class="covered" data-hits="11" data-linenumber="74">
-          <span class="hits">11</span>
+        <li class="covered" data-hits="16" data-linenumber="41">
+          <span class="hits">16</span>
           
           <code class="ruby">  input_array[index], input_array[largest] = input_array[largest], input_array[index]</code>
         </li>
       
-        <li class="covered" data-hits="11" data-linenumber="75">
-          <span class="hits">11</span>
+        <li class="covered" data-hits="16" data-linenumber="42">
+          <span class="hits">16</span>
           
           <code class="ruby">  maxheapify(input_array, heap_size, index)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="76">
+        <li class="never" data-hits="" data-linenumber="43">
           
           
           <code class="ruby">end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="77">
+        <li class="never" data-hits="" data-linenumber="44">
           
           
-          <code class="ruby">#main</code>
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="45">
+          <span class="hits">1</span>
+          
+          <code class="ruby">def getmaxvalue(input_array)</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="46">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  maximum = input_array[0]</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="47">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  input_array.each do |i|</code>
+        </li>
+      
+        <li class="covered" data-hits="7" data-linenumber="48">
+          <span class="hits">7</span>
+          
+          <code class="ruby">    maximum = i if i &gt; maximum</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="49">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="50">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  maximum</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="51">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="52">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="53">
+          <span class="hits">1</span>
+          
+          <code class="ruby">def removefromlist(input_array, x)</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="54">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  input_array.delete(x)</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="55">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  input_array</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="56">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="57">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="58">
+          <span class="hits">1</span>
+          
+          <code class="ruby">def get_size(input_array)</code>
+        </li>
+      
+        <li class="covered" data-hits="4" data-linenumber="59">
+          <span class="hits">4</span>
+          
+          <code class="ruby">  x = input_array.size</code>
+        </li>
+      
+        <li class="covered" data-hits="4" data-linenumber="60">
+          <span class="hits">4</span>
+          
+          <code class="ruby">  x</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="61">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="62">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="63">
+          <span class="hits">1</span>
+          
+          <code class="ruby">def empty?(input_array)</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="64">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  return true if get_size(input_array).zero?</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="65">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  false</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="66">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="67">
+          
+          
+          <code class="ruby"># main</code>
         </li>
       
     </ol>
