@@ -12,7 +12,6 @@ RSpec.describe 'heap.rb' do
 
     it 'sorting does not loses any data' do
       expect(heapsort([3, 2, 1])).to contain_exactly(1, 3, 2)
-      expect heapsort(((1..500_000).map { rand })).to contain_exactly((1..500_000).map)
     end
 
     it 'sorting correctly' do
